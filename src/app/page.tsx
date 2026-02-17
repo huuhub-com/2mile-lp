@@ -10,8 +10,28 @@ export default function Home() {
   return (
     <main>
       <Hero />
+
       <div className="relative z-10 bg-background text-primary">
-        <Section label="WHAT IT IS">
+
+        <section className="h-[100vh] flex items-center">
+          <div className="mx-auto w-full max-w-[960px] px-6 flex justify-center">
+            <div className="max-w-[560px] text-center">
+              <div className="mb-3 text-sm font-semibold tracking-[0.18em] uppercase text-black/50">
+                英語反射とは？
+              </div>
+
+              <p className="text-sm md:text-xl font-semibold tracking-[-0.02em]">
+                日本語を挟まず、英語で思考と返答が立ち上がること。
+              </p>
+
+              <p className="mt-2 text-sm leading-relaxed text-black/60">
+                学習ではなく、トレーニングです。
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <Section label="WHAT 2mile IS">
           <AnimatedSection duration={700} axis="y" distance={16}>
             <SecondSection />
           </AnimatedSection>
@@ -51,14 +71,14 @@ export default function Home() {
               <ul className="space-y-2 text-sm leading-6 text-black/75 md:text-base md:leading-7">
                 <li>生活文脈の記憶定着</li>
                 <li>通知による習慣化</li>
-                <li>出題管理が学習効率を最大化</li>
+                <li>出題管理が効率を最大化</li>
                 <li>AIドリブンのシンプルなUIでトレーニングに集中</li>
               </ul>
             </div>
           </div>
         </div>
-        <Price/>
-        <Footer/>
+        <Price />
+        <Footer />
       </div>
     </main>
   );
