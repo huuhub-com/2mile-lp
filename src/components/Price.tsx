@@ -24,7 +24,7 @@ export default function Price() {
         </div>
 
         <div className="mt-0 text-center">
-          <p className="text-[clamp(64px,10vw,100px)] font-extrabold tracking-[-0.04em] leading-none">
+          <p className="text-[clamp(40px,10vw,80px)] font-extrabold tracking-[-0.04em] leading-none">
             980円 / 月
           </p>
 
