@@ -15,8 +15,8 @@ const notoSansJp = Noto_Sans_JP({
 });
 
 export const metadata: Metadata = {
-  title: "2mile",
-  description: "2mile landing page",
+  title: "SokRef.",
+  description: "SokRef landing page",
 };
 
 export default function RootLayout({
