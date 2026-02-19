@@ -12,7 +12,7 @@ export default function Home() {
       <Hero />
 
       <div className="relative z-10 bg-background text-primary">
-        <Section label="WHAT 2mile IS">
+        <Section label="WHAT IT IS">
           <AnimatedSection duration={700} axis="y" distance={16}>
             <SecondSection />
           </AnimatedSection>
@@ -23,7 +23,7 @@ export default function Home() {
         </Section>
         <div className="min-h-screen">
           <div className="mx-auto w-full max-w-[960px] px-6 py-[120px] min-h-screen flex items-center justify-center">
-            <div className="max-w-[560px] text-center">
+            <div className="max-w-[680px] text-center">
               {/* WHAT YOU GET */}
               <div className="mb-3 text-[20px] font-semibold tracking-[0.18em] uppercase text-black/50">
                 WHAT YOU GET

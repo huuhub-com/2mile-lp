@@ -7,8 +7,8 @@ export default function Footer() {
                 <div className="mb-20 flex justify-center">
                     <div className="h-32 w-32 overflow-hidden rounded-full">
                         <img
-                            src="/logo-public.png"
-                            alt="2mile"
+                            src="/web-app-manifest-512x512.png"
+                            alt="SOKU"
                             className="h-full w-full object-cover opacity-80"
                         />
                     </div>

@@ -18,7 +18,7 @@ export default function Hero() {
           <motion.img
             src="/logo.png"
             alt="SokRef."
-            className="h-[clamp(44px,11vw,120px)] w-auto select-none"
+            className="h-[clamp(44px,11vw,140px)] w-auto select-none"
             draggable={false}
             initial={{ opacity: 0, y: 10, filter: "blur(6px)" }}
             animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
